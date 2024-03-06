@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// 用new和delete运算符实现动态内存空间管理的方法编写程序。从键盘输入3´5整型数组的数据，将数据存储在动态内存空间，计算并输出所有元素之和、最大值和最小值。
-
 int main(){
   int m, n;
   cin >> m >> n;

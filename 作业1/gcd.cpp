@@ -1,4 +1,3 @@
-//3．分别用穷举法和迭代法计算两个整数的最大公约数。
 #include <iostream>
 #include <cmath>
 using namespace std;
