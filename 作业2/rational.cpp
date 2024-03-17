@@ -72,6 +72,16 @@ void Rational::print()
     cout << 0 << endl;
     return;
   }
+  if(m == 1)
+  {
+    cout << n << endl;
+    return;
+  }
+  if (m < 0)
+  {
+    n = -n;
+    m = -m;
+  }
   cout << n << "/" << m << endl;
 }
 
